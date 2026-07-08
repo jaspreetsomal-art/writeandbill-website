@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: writeandbill-website
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    domains:
+      - writeandbill.com
+      - www.writeandbill.com
+    headers:
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=604800
