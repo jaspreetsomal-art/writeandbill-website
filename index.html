@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WriteandBill — EHR, Medical Billing &amp; Practice Management by Clinicians, for Clinicians</title>
+  <meta name="description" content="WriteandBill is EHR, medical billing and practice management software designed by medical professionals for busy medical professionals. Cut documentation and regulatory burden with AI — and get back to patient care.">
+  <meta property="og:title" content="WriteandBill — Write the note. We handle the rest.">
+  <meta property="og:description" content="EHR, billing and practice management built by clinicians for clinicians. Simple as paper notes, powered by AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.writeandbill.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+</head>
+<body>
+
+  <!-- ======= NAV ======= -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="assets/logo-mark.svg" alt="Write and Bill logo">
+        <span class="brand-name"><span class="c-red">Write</span> <span class="c-green">and</span> <span class="c-blue">Bill</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#why">Why us</a>
+        <a href="#platform">Platform</a>
+        <a href="#ai">AI</a>
+        <a href="#customize">Customize</a>
+        <a href="#compare">Compare</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="https://app.writeandbill.com" target="_blank" rel="noopener">Sign in</a>
+        <a class="btn btn-primary" href="#contact">Book a demo</a>
+      </div>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse-dot"></span> Designed by medical professionals, for busy medical professionals</p>
+        <h1><span class="c-red">Write</span> the note.<br><em>We handle the rest.</em></h1>
+        <p class="lede">WriteandBill is the EHR, medical billing and practice management platform that feels as simple as old‑fashioned paper notes — while AI quietly handles the documentation, coding, claims, quality measures and regulatory burden behind the scenes.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#contact">Book a demo</a>
+          <a class="btn btn-outline btn-lg" href="#platform">See the platform</a>
+        </div>
+        <ul class="hero-props">
+          <li>Built by clinicians</li>
+          <li>AI‑assisted charting &amp; coding</li>
+          <li>Customizable per practice</li>
+          <li>FHIR &amp; API‑ready</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="note-card">
+          <div class="note-head">
+            <span class="note-title">Progress Note</span>
+            <span class="note-date">Today, 9:42 AM</span>
+          </div>
+          <p class="note-line handwritten">Pt seen for f/u HTN &amp; T2DM. BP improved on lisinopril. A1c 7.1, down from 8.2. Continue plan, RTC 3 months.</p>
+          <div class="note-divider"><span>WriteandBill AI</span></div>
+          <div class="note-chips">
+            <span class="chip chip-code">99214 <small>E/M Level 4</small></span>
+            <span class="chip chip-dx">I10 <small>HTN</small></span>
+            <span class="chip chip-dx">E11.9 <small>T2DM</small></span>
+            <span class="chip chip-ok">Claim scrubbed ✓</span>
+            <span class="chip chip-ok">MIPS quality captured ✓</span>
+          </div>
+          <div class="note-footer">
+            <span class="note-status"><span class="pulse-dot green"></span> Claim submitted — clean, first pass</span>
+          </div>
+        </div>
+        <div class="float-card float-1">
+          <strong>98.6%</strong>
+          <span>first‑pass clean claims</span>
+        </div>
+        <div class="float-card float-2">
+          <strong>–2 hrs</strong>
+          <span>documentation per day</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= STATS BAR ======= -->
+  <section class="stats">
+    <div class="container stats-row">
+      <div class="stat reveal"><strong data-count="70" data-suffix="%">0%</strong><span>less time on documentation</span></div>
+      <div class="stat reveal delay-1"><strong data-count="98.6" data-suffix="%" data-decimal="1">0%</strong><span>first‑pass clean claim rate</span></div>
+      <div class="stat reveal delay-2"><strong data-count="35" data-suffix="%">0%</strong><span>fewer denials with AI scrubbing</span></div>
+      <div class="stat reveal delay-3"><strong data-count="100" data-suffix="%">0%</strong><span>configurable to your practice</span></div>
+    </div>
+    <p class="stats-note container">Illustrative targets based on internal design benchmarks — your practice's baseline will be measured at onboarding.</p>
+  </section>
+
+  <!-- ======= WHY / PROBLEM ======= -->
+  <section class="section why" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Why WriteandBill exists</p>
+        <h2>You trained to care for <span class="c-green">patients</span>.<br>Not to fight <span class="c-red">software</span>.</h2>
+      </div>
+      <div class="why-grid">
+        <article class="why-card reveal">
+          <div class="why-icon">📋</div>
+          <h3>Documentation burden</h3>
+          <p>Pajama‑time charting, click fatigue and bloated templates steal hours from every clinic day. WriteandBill turns a few honest sentences into a complete, compliant note.</p>
+        </article>
+        <article class="why-card reveal delay-1">
+          <div class="why-icon">⚖️</div>
+          <h3>Regulatory burden</h3>
+          <p>MIPS, quality measures, prior auth, payer policy churn. Our team has decades navigating federal, state‑specific and payer‑specific requirements — we track the rules so you don't have to.</p>
+        </article>
+        <article class="why-card reveal delay-2">
+          <div class="why-icon">💸</div>
+          <h3>Reimbursement complexity</h3>
+          <p>Under‑coding, denials and slow A/R quietly drain practices. Our AI suggests the right code with evidence, scrubs every claim, and chases what you've earned.</p>
+        </article>
+        <article class="why-card reveal delay-3">
+          <div class="why-icon">🩺</div>
+          <h3>The real business: patient care</h3>
+          <p>Everything we build serves one goal — giving doctors, nurses and practitioners their time and attention back for the patient in front of them.</p>
+        </article>
+      </div>
+      <blockquote class="founder-note reveal">
+        <p class="handwritten">“We built WriteandBill because we lived the 11 PM charting, the denial rework, the audit anxiety. Software should carry that weight — not clinicians.”</p>
+        <cite>— The WriteandBill clinical founding team</cite>
+      </blockquote>
+      <div class="cred-strip reveal">
+        <div class="cred cred-red">
+          <strong class="c-red">Decades</strong>
+          <span>inside legacy digital health systems — we know exactly where they fail clinicians</span>
+        </div>
+        <div class="cred cred-blue">
+          <strong class="c-blue">Federal &amp; state</strong>
+          <span>legal and regulatory requirements, tracked jurisdiction by jurisdiction</span>
+        </div>
+        <div class="cred cred-green">
+          <strong class="c-green">Payer‑specific</strong>
+          <span>rules, policies and edits — encoded into the platform so you never chase them</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PLATFORM PILLARS ======= -->
+  <section class="section platform" id="platform">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">One platform, three pillars</p>
+        <h2><span class="c-red">EHR.</span> <span class="c-blue">Billing.</span> <span class="c-green">Practice management.</span><br>Working as one.</h2>
+        <p class="section-sub">Robust foundations in communicating patient care to every stakeholder — patients, teams, payers and regulators — with new technology at the frontier of reimbursement and quality.</p>
+      </div>
+
+      <div class="pillars">
+        <article class="pillar reveal">
+          <header>
+            <span class="pillar-num c-red">01</span>
+            <h3>Clinical EHR</h3>
+            <p class="pillar-tag">Simple as paper. Smarter than any template.</p>
+          </header>
+          <ul>
+            <li>Free‑text, dictation or ambient AI charting — your style, your words</li>
+            <li>Notes auto‑structured into compliant, shareable records</li>
+            <li>Problem lists, meds, allergies and results at a glance</li>
+            <li>Specialty content that adapts to how <em>you</em> practice</li>
+            <li>FHIR‑native records that travel with the patient</li>
+          </ul>
+        </article>
+
+        <article class="pillar pillar-featured reveal delay-1">
+          <header>
+            <span class="pillar-num">02</span>
+            <h3>Medical Billing &amp; RCM</h3>
+            <p class="pillar-tag">From note to payment, without the drama.</p>
+          </header>
+          <ul>
+            <li>AI coding suggestions (E/M, ICD‑10, CPT) with chart evidence</li>
+            <li>Real‑time claim scrubbing before submission</li>
+            <li>Eligibility, charge capture, receipts and payment posting</li>
+            <li>Denial prevention and worklists that prioritize dollars</li>
+            <li>Production &amp; payment reports your biller will love</li>
+          </ul>
+        </article>
+
+        <article class="pillar reveal delay-2">
+          <header>
+            <span class="pillar-num c-green">03</span>
+            <h3>Practice Management</h3>
+            <p class="pillar-tag">The whole practice, one calm dashboard.</p>
+          </header>
+          <ul>
+            <li>Scheduling, tasks and team messaging in one place</li>
+            <li>Custom report builder — filter like a search engine</li>
+            <li>Quality &amp; MIPS dashboards that update themselves</li>
+            <li>Audit‑ready logs and role‑based access built in</li>
+            <li>API keys &amp; webhooks to connect anything else you use</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= AI SECTION ======= -->
+  <section class="section ai" id="ai">
+    <div class="container ai-inner">
+      <div class="ai-copy reveal">
+        <p class="eyebrow light">High tech, human roots</p>
+        <h2>AI that works like a great scribe, coder and biller — combined.</h2>
+        <p>WriteandBill incorporates cutting‑edge AI while staying true to its origins: helping hard‑working doctors, nurses and practitioners. The AI never gets between you and the patient — it works behind the note.</p>
+        <div class="ai-features">
+          <div class="ai-feature">
+            <h4>Ambient &amp; assisted charting</h4>
+            <p>Speak, dictate or jot shorthand. The AI drafts the full note; you review and sign.</p>
+          </div>
+          <div class="ai-feature">
+            <h4>Evidence‑linked coding</h4>
+            <p>Every suggested code cites the exact chart language that supports it — audit‑proof by design.</p>
+          </div>
+          <div class="ai-feature">
+            <h4>Regulatory autopilot</h4>
+            <p>Quality measures, MIPS data and payer rules tracked continuously, flagged only when you need to act.</p>
+          </div>
+          <div class="ai-feature">
+            <h4>Denial defense</h4>
+            <p>Claims are scrubbed against payer‑specific rules before they leave the building.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ai-visual reveal delay-1">
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span><em>writeandbill · ai engine</em></div>
+          <div class="terminal-body">
+            <p><span class="t-prompt">▸</span> Note signed by Dr. Patel <span class="t-dim">09:42:11</span></p>
+            <p><span class="t-ok">✓</span> E/M level derived: <strong>99214</strong> <span class="t-dim">(MDM: moderate — 2 chronic, stable, Rx mgmt)</span></p>
+            <p><span class="t-ok">✓</span> ICD‑10 linked: <strong>I10, E11.9</strong></p>
+            <p><span class="t-ok">✓</span> MIPS #236 (BP control) — captured</p>
+            <p><span class="t-ok">✓</span> Payer edit check — 0 issues</p>
+            <p><span class="t-ok">✓</span> Claim queued <span class="t-dim">est. first-pass: 98.6%</span></p>
+            <p class="t-cursor"><span class="t-prompt">▸</span> Time saved today: <strong>1 h 54 m</strong><span class="cursor-block"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CUSTOMIZE ======= -->
+  <section class="section customize" id="customize">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Yours, not one‑size‑fits‑all</p>
+        <h2>A <span class="c-green">customizable</span> solution for each practice</h2>
+        <p class="section-sub">Solo family clinic, multi‑site specialty group, or hospital‑affiliated practice — WriteandBill molds to your workflows, not the other way around.</p>
+      </div>
+      <div class="customize-grid">
+        <div class="custom-card reveal"><h4>Your note style</h4><p>SOAP, narrative, problem‑oriented or shorthand — the AI learns and matches how you write.</p></div>
+        <div class="custom-card reveal delay-1"><h4>Your specialty</h4><p>Primary care, internal medicine, hospitalist, urgent care, behavioral health and more — content tuned per specialty.</p></div>
+        <div class="custom-card reveal delay-2"><h4>Your workflows</h4><p>Configurable schedules, task routing, report templates and role permissions per location and per user.</p></div>
+        <div class="custom-card reveal delay-3"><h4>Your integrations</h4><p>API keys, webhooks and FHIR export connect labs, HIEs, clearinghouses and the tools you already trust.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= STAKEHOLDERS ======= -->
+  <section class="section stakeholders">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Robust foundations</p>
+        <h2>Patient care, communicated to every stakeholder</h2>
+      </div>
+      <div class="stake-grid">
+        <div class="stake reveal"><span class="stake-icon">🧑‍⚕️</span><h4>Care teams</h4><p>Clean, structured notes and tasks keep physicians, nurses and staff on the same page in real time.</p></div>
+        <div class="stake reveal delay-1"><span class="stake-icon">🧍</span><h4>Patients</h4><p>Clear visit summaries, receipts and records patients can actually understand and carry with them.</p></div>
+        <div class="stake reveal delay-2"><span class="stake-icon">🏦</span><h4>Payers</h4><p>Evidence‑backed claims and clean data mean faster payment and fewer conversations with insurers.</p></div>
+        <div class="stake reveal delay-3"><span class="stake-icon">🏛️</span><h4>Regulators</h4><p>Quality reporting, audit logs and compliance artifacts generated automatically from everyday care.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= COMPARE ======= -->
+  <section class="section compare" id="compare">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Better than the competition</p>
+        <h2>Legacy EHRs digitized paperwork.<br>We <span class="c-blue">eliminated</span> it.</h2>
+      </div>
+      <div class="compare-table-wrap reveal">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="col-wb">WriteandBill</th>
+              <th>Legacy enterprise EHRs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Designed by</td><td class="col-wb">Practicing clinicians with decades in legacy health IT</td><td>Enterprise software vendors</td></tr>
+            <tr><td>Regulatory depth</td><td class="col-wb">Federal, state‑specific and payer‑specific rules built in</td><td>Generic compliance modules, add‑on consultants</td></tr>
+            <tr><td>Charting</td><td class="col-wb">Write naturally — AI structures &amp; codes it</td><td>Click‑heavy templates &amp; copy‑forward bloat</td></tr>
+            <tr><td>Coding &amp; claims</td><td class="col-wb">AI‑suggested, evidence‑linked, pre‑scrubbed</td><td>Manual coding, post‑hoc denial rework</td></tr>
+            <tr><td>Quality &amp; MIPS</td><td class="col-wb">Captured automatically from the note</td><td>Separate registries, extra data entry</td></tr>
+            <tr><td>Customization</td><td class="col-wb">Per practice, per provider, per workflow</td><td>Expensive builds, months of consultants</td></tr>
+            <tr><td>Integrations</td><td class="col-wb">Open API, webhooks, FHIR out of the box</td><td>Interface fees and vendor gatekeeping</td></tr>
+            <tr><td>Feel</td><td class="col-wb">Simple as old‑fashioned notes</td><td>Like doing taxes between patients</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TESTIMONIALS ======= -->
+  <section class="section voices">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">From the front lines</p>
+        <h2>Built with — and for — busy clinicians</h2>
+      </div>
+      <div class="voice-grid">
+        <figure class="voice reveal">
+          <blockquote>“I chart the way I talk. The note, the code and the claim are done before I reach the next room.”</blockquote>
+          <figcaption><strong>Internal medicine physician</strong><span>Design partner practice</span></figcaption>
+        </figure>
+        <figure class="voice reveal delay-1">
+          <blockquote>“Our denials dropped the first month. The scrubber catches what our old system let sail through.”</blockquote>
+          <figcaption><strong>Practice billing manager</strong><span>Design partner practice</span></figcaption>
+        </figure>
+        <figure class="voice reveal delay-2">
+          <blockquote>“MIPS season used to be a fire drill. Now the data is just… there, already collected.”</blockquote>
+          <figcaption><strong>Nurse practitioner &amp; quality lead</strong><span>Design partner practice</span></figcaption>
+        </figure>
+      </div>
+      <p class="stats-note center">Quotes reflect design‑partner feedback during product development.</p>
+    </div>
+  </section>
+
+  <!-- ======= FAQ ======= -->
+  <section class="section faq" id="faq">
+    <div class="container narrow">
+      <div class="section-head reveal">
+        <p class="eyebrow">Questions</p>
+        <h2>Frequently asked</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>What exactly is WriteandBill?</summary>
+          <p>An all‑in‑one EHR, medical billing and practice management platform. You document care naturally; the platform structures the record, suggests codes with evidence, scrubs and submits claims, captures quality data, and gives you clean reports — all in one system designed by medical professionals.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Will AI write notes for me?</summary>
+          <p>Yes — via dictation, ambient capture or expanding your shorthand. You always review and sign. The AI drafts and organizes; the clinician stays the author of record.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Can it really be customized for my practice?</summary>
+          <p>Yes. Note styles, specialty content, schedules, report templates, task routing and permissions are configurable per practice, per location and per provider — without consultants or long "build" projects.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Does it integrate with our existing tools?</summary>
+          <p>WriteandBill ships with an open REST API, API‑key management, webhooks and FHIR export, so labs, clearinghouses, HIEs and analytics tools connect without interface ransom fees.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>How does it help with MIPS and regulatory requirements?</summary>
+          <p>Quality measures are mapped to your normal documentation, so the data is captured as a by‑product of care. Dashboards show your standing continuously, and audit‑ready logs are always available.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Who is behind WriteandBill?</summary>
+          <p>A team of practicing clinicians and health‑IT veterans with decades of experience inside legacy digital healthcare systems — and in the federal, state‑specific and payer‑specific legal and regulatory requirements that burden practices. That first‑hand experience with both the software and the rules is exactly why WriteandBill exists.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Is our data secure?</summary>
+          <p>Role‑based access, full audit logging, and encryption in transit and at rest are foundational. The platform is engineered for HIPAA‑aligned operations from day one.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CTA / CONTACT ======= -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-copy reveal">
+        <h2>Get your evenings back.</h2>
+        <p>See how WriteandBill turns a plain note into a paid, compliant, quality‑captured encounter — in one demo, on your own workflows.</p>
+        <ul class="contact-points">
+          <li>Live demo with a clinician on the call</li>
+          <li>Configured to your specialty and note style</li>
+          <li>Straight answers on pricing and migration</li>
+        </ul>
+      </div>
+      <form class="contact-form reveal delay-1" id="demoForm">
+        <div class="form-row">
+          <label>Name<input type="text" name="name" placeholder="Dr. Jane Smith" required></label>
+          <label>Role<input type="text" name="role" placeholder="Physician, NP, Practice Manager…"></label>
+        </div>
+        <div class="form-row">
+          <label>Email<input type="email" name="email" placeholder="you@practice.com" required></label>
+          <label>Practice size<select name="size">
+            <option>Solo / 1–2 providers</option>
+            <option>3–10 providers</option>
+            <option>11–50 providers</option>
+            <option>50+ providers</option>
+          </select></label>
+        </div>
+        <label>What hurts most today?<textarea name="pain" rows="3" placeholder="Documentation time, denials, MIPS, our current EHR…"></textarea></label>
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Request a demo</button>
+        <p class="form-note" id="formNote">We reply within one business day. No spam, ever.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo-card"><img class="brand-logo" src="assets/logo-mark.svg" alt="Write and Bill logo"></span>
+        <p>EHR, medical billing and practice management —<br>by medical professionals, for medical professionals.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Platform</h5>
+          <a href="#platform">Clinical EHR</a>
+          <a href="#platform">Billing &amp; RCM</a>
+          <a href="#platform">Practice management</a>
+          <a href="#ai">AI engine</a>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <a href="#why">Why WriteandBill</a>
+          <a href="#compare">Compare</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h5>Product</h5>
+          <a href="https://app.writeandbill.com" target="_blank" rel="noopener">Sign in</a>
+          <a href="#contact">Book a demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span>© 2026 WriteandBill. All rights reserved.</span>
+      <span>www.writeandbill.com</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
